@@ -39,4 +39,8 @@ p {
 export const Pizza = styled(IoMdPizza)`
 font-size: 2rem;
 transform: translate(-50%, -15%);
+&:hover{
+        color: #ffc500;
+        transition: 0.2s ease-out;
+ }
 `
